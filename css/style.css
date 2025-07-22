@@ -80,6 +80,7 @@ a {
 }
 
 .card-info {
+    display: inline;
     margin-top: 2px;
     font-size: 18px;
     font-weight: 600;
@@ -154,13 +155,37 @@ a {
 }
 
 
-
-
-
 /* footer */
 footer {
     background-color: black;
     width: 100%;
     height: 120px;
     margin-top: 110px;
+    padding-top: 30px;
+    color: white;
 }
+
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.row-footer h4 {
+    font-size: 20px;
+}
+
+.row-footer h5 {
+    font-size: 16px;
+}
+
+.info {
+    margin-top: 11px;
+    word-spacing: 4px;
+}
+
+.social {
+    transform: scale(1.3);
+    color: white;
+}
+
