@@ -80,6 +80,7 @@ a {
 }
 
 .card-info {
+    margin-top: 2px;
     font-size: 18px;
     font-weight: 600;
 }
@@ -140,13 +141,17 @@ a {
     font-size: 38px;
 }
 
+.second-card {
+    display: none;
+}
 
+.col:hover .first-card {
+    display: none;
+}
 
-
-
-
-
-
+.col:hover .second-card {
+    display: block;
+}
 
 
 
