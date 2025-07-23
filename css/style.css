@@ -142,6 +142,10 @@ a {
     font-size: 38px;
 }
 
+.first-card {
+    display: block;
+}
+
 .second-card {
     display: none;
 }
